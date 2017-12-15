@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/MFTheory/projects/uspp/!svn/ver/3/trunk/Source
+END
+COMPILER_DETAILS
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/COMPILER_DETAILS
+END
+interpol.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/interpol.f
+END
+numsubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/numsubs.f
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/LICENSE
+END
+initsubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/initsubs.f
+END
+pbe.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/pbe.f
+END
+scgsubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MFTheory/projects/uspp/!svn/ver/3/trunk/Source/scgsubs.f
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/README
+END
+BENIGN_BUG
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/BENIGN_BUG
+END
+bessel.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/bessel.f
+END
+eissubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/eissubs.f
+END
+pssubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/pssubs.f
+END
+relsubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/relsubs.f
+END
+aesubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/aesubs.f
+END
+runatom.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/runatom.f
+END
+rwsubs.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MFTheory/projects/uspp/!svn/ver/3/trunk/Source/rwsubs.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MFTheory/projects/uspp/!svn/ver/3/trunk/Source/Makefile
+END
+trou.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/MFTheory/projects/uspp/!svn/ver/2/trunk/Source/trou.f
+END

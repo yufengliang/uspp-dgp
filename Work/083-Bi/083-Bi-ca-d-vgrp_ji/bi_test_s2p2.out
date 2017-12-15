@@ -1,0 +1,125 @@
+========================================================================
+pseudopotential program version  7.3.6   date:  9 -  3 -   15
+========================================================================
+
+ ifae =   0    ifpsp =   1    ifprt =  -2    ifplw =   0    ilogd =   3
+ rlogd=   3.00100     emin=  -6.00000     emax=   2.00000     nnt=   80
+ thresh, tol =   1.000E-10   1.000E-09    damp = 0.500    maxit = 250
+ ncores =   12    nvales =    3    nang =    3
+ core charge = 68.00000 and valence charge = 15.00000
+ besrmax = 10.00    besemin = 30.00    besemax = 40.00    besde=  5.00
+
+ value of mesh generated in rinit is   899
+ irel = 2 so all electron calculations use koelling-harmon equations
+
+
+                         the system has converged with
+                                 delta= 0.8235972D-09
+
+
+                             the eigenvalues are
+
+
+          orbital          occupation          energy
+           100                   2.00           -6660.86107
+           200                   2.00           -1197.35452
+           210                   6.00           -1024.51457
+           300                   2.00            -289.45900
+           310                   6.00            -240.09808
+           320                  10.00            -190.50141
+           400                   2.00             -66.84642
+           410                   6.00             -50.67295
+           420                  10.00             -32.20081
+           430                  14.00             -11.84534
+           500                   2.00             -12.21700
+           510                   6.00              -7.65486
+           520                  10.00              -2.59718
+           600                   2.00              -1.65027
+           610                   2.00              -0.86131
+ etot= -43037.84149 ryd ;    -585529.81380 ev            ebsr,ehar,emvxc= -26814.97063  16473.88043    251.00957
+
+ subroutine lderiv: pass   1
+
+ leaving lderiv
+
+ pseudopotential has been read in
+
+    ============================================================
+    |  pseudopotential report: version  7.3.6 date  9- 3-  15  |
+    ------------------------------------------------------------
+    |  bismuth                   ceperley-alder exchange-corr  |
+    |  z =  83.00  zv =  15.00  exfact =   0.00000             |
+    |                            etot  =-142.02774             |
+    |  index    orbital      occupation    energy              |
+    |    1        520          10.00       -2.00               |
+    |    2        600           2.00       -1.08               |
+    |    3        610           3.00       -0.35               |
+    |  keyps = 3     ifpcor = 0     rpcor =   0.00000          |
+    |  rinner =      1.20     for L=    1                      |
+    |  rinner =      1.20     for L=    2                      |
+    |  rinner =      1.20     for L=    3                      |
+    |  rinner =      1.20     for L=    4                      |
+    |  rinner =      1.20     for L=    5                      |
+    |    new generation scheme:                                |
+    |    nbeta =  6     kkbeta =  747     rcloc =    2.2000    |
+    |    ibeta      l    epsilon   rcut iptype                 |
+    |       1      0      -1.08   2.50      2                  |
+    |       2      0       1.00   2.50      2                  |
+    |       3      1      -0.35   2.50      2                  |
+    |       4      1       2.00   2.50      2                  |
+    |       5      2      -2.00   2.20      2                  |
+    |       6      2       0.50   2.20      2                  |
+    |  npf    = 8  ptryc =  10.000                             |
+    |  lloc   = 3  eloc   =   0.000                            |
+    |  ifqopt = 2  nqf    = 5  qtryc =  10.000                 |
+    |  all electron calculation used koelling-harmon equation  |
+    |         ************logarithmic mesh************         |
+    ============================================================
+
+ begin self-consistent cycle for pseudopotential test
+ end self-consistent cycle   1 delta =  0.1095192D+01
+ end self-consistent cycle   2 delta =  0.1963954D+00
+ end self-consistent cycle   3 delta =  0.4742281D-01
+ end self-consistent cycle   4 delta =  0.1541336D-01
+ end self-consistent cycle   5 delta =  0.5569435D-02
+ end self-consistent cycle   6 delta =  0.2332508D-02
+ end self-consistent cycle   7 delta =  0.1102210D-02
+ end self-consistent cycle   8 delta =  0.5344421D-03
+ end self-consistent cycle   9 delta =  0.2856062D-03
+ end self-consistent cycle  10 delta =  0.1624635D-03
+ end self-consistent cycle  11 delta =  0.8943628D-04
+ end self-consistent cycle  12 delta =  0.4813288D-04
+ end self-consistent cycle  13 delta =  0.2550573D-04
+ end self-consistent cycle  14 delta =  0.1335739D-04
+ end self-consistent cycle  15 delta =  0.6929559D-05
+ end self-consistent cycle  16 delta =  0.3568434D-05
+ end self-consistent cycle  17 delta =  0.1826737D-05
+ end self-consistent cycle  18 delta =  0.9313135D-06
+ end self-consistent cycle  19 delta =  0.4733703D-06
+ end self-consistent cycle  20 delta =  0.2398489D-06
+ end self-consistent cycle  21 delta =  0.1272994D-06
+ end self-consistent cycle  22 delta =  0.6855750D-07
+ end self-consistent cycle  23 delta =  0.3693461D-07
+ end self-consistent cycle  24 delta =  0.1987708D-07
+ end self-consistent cycle  25 delta =  0.1067640D-07
+ end self-consistent cycle  26 delta =  0.5738062D-08
+ end self-consistent cycle  27 delta =  0.3077823D-08
+ end self-consistent cycle  28 delta =  0.1647668D-08
+ end self-consistent cycle  29 delta =  0.8365477D-09
+
+ total energy =  -141.4281946
+
+ ------------------------------------------------------
+ comparison of all-electron and pseudo eigenvalues (Ry)
+
+   nlm    all-elec      pseudo        diff
+
+   520   -2.597177   -2.597534    0.000357
+   600   -1.650275   -1.650118   -0.000156
+   610   -0.861308   -0.861225   -0.000083
+
+ ------------------------------------------------------
+
+ subroutine lderiv: pass   2
+
+ leaving lderiv

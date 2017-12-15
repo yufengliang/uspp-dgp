@@ -1,0 +1,51 @@
+#!/bin/bash
+
+  file_core=$1 
+  file_valence=$2
+  c=$3
+  nv=$4
+
+  if [ -z $file_core ]; then
+    echo "Need core file.  "
+    exit
+  fi
+
+  if [ ! -f $file_core ]; then
+    echo "Core file $file_core does not exist. "
+    exit
+  fi
+
+  if [ -z $file_valence ]; then
+    echo "Need valence file.  "
+    exit
+  fi
+
+  if [ ! -f $file_valence ]; then
+    echo "Valence file $file_valence does not exist. "
+    exit
+  fi
+
+  if [ $c -gt 0 ]; then
+    echo "Core state: $c."
+  else
+    echo "Invalid number of valence bands: $c "
+  fi
+
+  if [ $nv -gt 0 ]; then
+    echo "Dealing with $nv valence states."
+  else
+    echo "Invalid number of valence bands: $nv "
+  fi
+
+  pattern="/davegp - begin/,/davegp - end/p"
+
+  nstate=`grep -A 1 "davegp - begin" $file_core|tail -1|awk '{print $1}'`
+  ngrid=`grep -A 2 "davegp - begin" $file_core|tail -1|awk '{print $1}'`
+
+  echo 
+  sed -n "$pattern" $file_core | sed '2d' | \
+  sed ""
+  sed -n "1, $(( ngrid + 1 )) p" > test.txt
+
+
+

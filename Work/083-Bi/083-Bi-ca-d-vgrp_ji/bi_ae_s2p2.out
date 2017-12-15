@@ -1,0 +1,48 @@
+========================================================================
+pseudopotential program version  7.3.6   date:  9 -  3 -   15
+========================================================================
+
+ ifae =   1    ifpsp =   0    ifprt =   0    ifplw =   0    ilogd =   3
+ rlogd=   1.80000     emin=  -2.40000     emax=   1.60000     nnt=   40
+ thresh, tol =   1.000E-10   1.000E-09    damp = 0.400    maxit = 250
+
+          *************************************************************
+          bismuth                   ceperley-alder exchange-correlation
+          *************************************************************
+
+ z = 83.00    xion = 1.00    exfact =   0.00000    irel=   2
+ ncspvs =   15
+ rmax = 150.00000    aasf =  13.00000    bbsf =  40.00000
+
+ value of mesh generated in rinit is   899
+ irel = 2 so all electron calculations use koelling-harmon equations
+
+
+                         the system has converged with
+                                 delta= 0.7148873D-09
+
+
+                             the eigenvalues are
+
+
+          orbital          occupation          energy
+           100                   2.00           -6660.86107
+           200                   2.00           -1197.35452
+           210                   6.00           -1024.51457
+           300                   2.00            -289.45900
+           310                   6.00            -240.09808
+           320                  10.00            -190.50141
+           400                   2.00             -66.84642
+           410                   6.00             -50.67295
+           420                  10.00             -32.20081
+           430                  14.00             -11.84534
+           500                   2.00             -12.21700
+           510                   6.00              -7.65486
+           520                  10.00              -2.59718
+           600                   2.00              -1.65027
+           610                   2.00              -0.86131
+ etot= -43037.84149 ryd ;    -585529.81380 ev            ebsr,ehar,emvxc= -26814.97063  16473.88043    251.00957
+
+ subroutine lderiv: pass   1
+
+ leaving lderiv

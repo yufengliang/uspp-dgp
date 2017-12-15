@@ -1,0 +1,10 @@
+========================================================================
+pseudopotential program version  7.3.6   date:  4 -  7 -   17
+========================================================================
+
+ ifae =   1    ifpsp =   0    ifprt =   0    ifplw =   0    ilogd =   3
+ rlogd=   1.80000     emin=  -2.40000     emax=   1.60000     nnt=   60
+ thresh, tol =   1.000E-10   1.000E-09    damp = 0.100    maxit = 600
+ ***error in subroutine readin
+ www=  59.00 xion=   0.00   z=  58.00   ncores=   0   nvales= ***   ncspvs=  15
+ control cards incorrect?

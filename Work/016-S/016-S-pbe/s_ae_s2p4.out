@@ -1,0 +1,22 @@
+========================================================================
+pseudopotential program version  7.3.6   date: 16 - 12 -   16
+========================================================================
+
+ ifae =   1    ifpsp =   0    ifprt =   0    ifplw =   0    ilogd =   3
+ rlogd=   2.00000     emin=  -2.40000     emax=   1.60000     nnt=   10
+ thresh, tol =   1.000E-11   1.000E-10    damp = 0.500    maxit = 250
+ z, xion, exfact    16.00000000000000         0.000000000000000      
+    5.000000000000000     
+
+          *************************************************************
+           S                   PBE - GGA           exchange-correlation
+          *************************************************************
+
+ z = 16.00    xion = 0.00    exfact =   5.00000    irel=   2
+ ncspvs =    6
+ rmax = 140.00000    aasf =   6.00000    bbsf =  59.00000
+
+ value of mesh generated in rinit is   811
+ irel = 2 so all electron calculations use koelling-harmon equations
+ ***error in koesol
+ ninf          811  too big for this mesh          811
